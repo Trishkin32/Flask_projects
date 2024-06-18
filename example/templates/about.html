@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}Моe резюме{% endblock %}
+
+{% block content %}
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Мое резюме</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Образование</h2>
+                <h4>МГТУ имени Баумана Н.Э.</h4>
+                <p class="mb-0">Бакалавр инженер</p>
+                <p class="text-muted">2015 - 2019</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Опыт работы</h2>
+                <h4>1 год - обучение</h4>
+                <p class="mb-0">2019 - н.в.</p>
+                <p class="text-muted">- Разработка и поддержка веб-приложений</p>
+                <p class="text-muted">- Работа с Python, Django,Postgesql</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>Навыки</h2>
+                <ul class="list-group">
+                    <li class="list-group-item border-0 py-1"><i class="fa fa-cog"></i> Python</li>
+                    <li class="list-group-item border-0 py-1"><i class="fa fa-cog"></i> Django</li>
+                    <li class="list-group-item border-0 py-1"><i class="fa fa-cog"></i> Postgesql</li>
+                    <li class="list-group-item border-0 py-1"><i class="fa fa-cog"></i> Docker</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Проекты</h2>
+                <h4>Сайт создания рецептов</h4>
+                <p class="text-muted mb-0">- Разработка сайта с использованием Django</p>
+                <h4>Телеграмм бот</h4>
+                <p class="text-muted mb-0">- Разработка бота с использованием библиотеки telegram_bot</p>
+                <p class="text-muted">- Провека статуса домашки</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>Контакты</h2>
+                <p class="mb-0"><i class="fa fa-phone"></i> Телефон: +12345669012</p>
+                <p class="mb-0"><i class="fa fa-envelope"></i> Email: example@example.com</p>
+                <p class="mb-0"><i class="fa fa-github"> GitHub: <a href="https://github.com/example"></i>example</a></p>
+            </div>
+            <div class="col-md-6">
+                <h2>Языки</h2>
+                <ul class="list-group">
+                    <li class="list-group-item border-0 py-1"><i class="fa fa-check-circle"></i> Английский (beginer)</li>
+                    <li class="list-group-item border-0 py-1"><i class="fa fa-check-circle"></i> Русский (родной)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}
