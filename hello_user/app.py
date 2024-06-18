@@ -7,6 +7,3 @@ app = Flask(__name__)
 @app.route('')
 def index():
     pass
-
-def about():
-    pass
