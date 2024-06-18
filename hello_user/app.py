@@ -1,4 +1,5 @@
-from flask import Flask
+from flask import Flask, render_template
+import datetime
 
 
 app = Flask(__name__)
@@ -6,4 +7,6 @@ app = Flask(__name__)
 
 @app.route('')
 def index():
-    pass
+    now = datetime.datetime.now()
+
+
