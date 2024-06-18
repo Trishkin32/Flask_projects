@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from models import Artist, Album, Song, db
 
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///music.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
