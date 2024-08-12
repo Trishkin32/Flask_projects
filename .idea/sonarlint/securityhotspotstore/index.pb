@@ -23,12 +23,8 @@ L
 example/templates/about.html,d\e\de4fb59496a4f2212badacc2ce0d21c44f181e15
 >
 example/app.py,c\7\c7a2614af0d129dddb36de005864efaaaa9e416b
-A
-example/README.md,1\e\1ec35b52e6092fa6c4a05ce9fa6fada13de777c3
 @
 requirements.txt,1\9\19359a61ae2446b51b549167b014da2fcf265768
-H
-example/requirements.txt,4\c\4c446b1309047d7cb88605eb2d22dfa69a477491
 I
 example/instance/music.db,6\d\6d805e59a2690a3a85922ea43aad3cfb8778a9c8
 A
